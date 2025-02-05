@@ -1,8 +1,8 @@
 /*
 
-nikthefix 23.01.25
+nikthefix 05.02.25
 
-Lilygo T-Display-S3-Amoled-1.75"
+Waveshare ESP32-S3 1.43inch AMOLED Display Development Board, 466×466, QSPI
 
 
 
