@@ -28,7 +28,9 @@ Please set in lv_conf.h:  --->   #if 1                                  (line 15
 
                           A copy of my lv_conf.h file is provided.
 
+
 Set display brightness in setup() ---> lcd_brightness(200); // 0-255
+Set display orientation in setup() ---> disp_drv.sw_rotate = 1;  disp_drv.rotated = LV_DISP_ROT_XXX; (Options: LV_DISP_ROT_90, LV_DISP_ROT_180, LV_DISP_ROT_270)
 
 
 
