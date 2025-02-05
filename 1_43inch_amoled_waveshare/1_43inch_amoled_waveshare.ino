@@ -131,8 +131,8 @@ void setup()
     disp_drv.rounder_cb = my_rounder; 
     disp_drv.flush_cb = lv_disp_flush;
     disp_drv.draw_buf = &draw_buf;
-    disp_drv.sw_rotate = 1;  
-    disp_drv.rotated = LV_DISP_ROT_90;
+    //disp_drv.sw_rotate = 1;  
+    //disp_drv.rotated = LV_DISP_ROT_90;
     lv_disp_drv_register(&disp_drv);
 
 
